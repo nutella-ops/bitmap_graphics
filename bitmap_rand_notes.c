@@ -11,7 +11,7 @@ char graphics[X_SIZE / 8][Y_SIZE]; /* the graphics data */
 int main()
 {
 int loc;  /* current location we are setting */
-// void print_graphics(void);  /* print the data */   // lmao not necessary for successful compile/run 
+void print_graphics(void);  /* print the data */   // lmao not necessary for successful compile/run 
 
 //iterates over loc 0-7, when 8 exec print_graphics() & return(0)
 for (loc = 0; loc < X_SIZE; ++loc)
